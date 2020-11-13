@@ -50,59 +50,101 @@ namespace RPS
         {
             if(playerAnswer == 1)
             {
+                RockPrint();
+                Console.WriteLine("vs");
                 if(compAnswer == 1)
                 {
-                    Console.WriteLine("Computer: Rock!");
+                    RockPrint();
                 }
                 if(compAnswer == 2)
                 {
-                    Console.WriteLine("Computer: Paper!");
+                    PaperPrint();
                     compScore++;
                 }
                 if(compAnswer == 3)
                 {
-                    Console.WriteLine("Computer: Scissors!");
+                    ScissorsPrint();
                     playerScore++;
                 }
             }
 
             if(playerAnswer == 2)
             {
+                PaperPrint();
+                Console.WriteLine("vs");
+                if(compAnswer == 1)
+                {
+                    RockPrint();
+                    playerScore++;
+                }
                 if(compAnswer == 2)
                 {
-                    Console.WriteLine("Computer: Paper!");
+                    PaperPrint();
                 }
                 if(compAnswer == 3)
                 {
-                    Console.WriteLine("Computer: Scissors!");
+                    ScissorsPrint();
                     compScore++;
-                }
-                if(compAnswer == 1)
-                {
-                    Console.WriteLine("Computer: Rock!");
-                    playerScore++;
                 }
             }
 
             if(playerAnswer == 3)
             {
-                if(compAnswer == 3)
-                {
-                    Console.WriteLine("Computer: Scissors!");
-                }
+                ScissorsPrint();
+                Console.WriteLine("vs");
                 if(compAnswer == 1)
                 {
-                    Console.WriteLine("Computer: Rock!");
+                    RockPrint();
                     compScore++;
                 }
                 if(compAnswer == 2)
                 {
-                    Console.WriteLine("Computer: Paper!");
+                    PaperPrint();
                     playerScore++;
+                }
+                if(compAnswer == 3)
+                {
+                    ScissorsPrint();
                 }
             }
 
             Play(playerScore, compScore);
+        }
+
+        static void RockPrint()
+        {
+            Console.WriteLine(@"
+                    _______
+                ---'   ____)
+                        (_____)
+                        (_____)
+                        (____)
+                ---.__(___)            
+            ");
+        }
+
+        static void PaperPrint()
+        {
+            Console.WriteLine(@"
+                    _______
+                ---'    ____)____
+                            ______)
+                            _______)
+                            _______)
+                ---.__________)            
+            ");
+        }
+
+        static void ScissorsPrint()
+        {
+            Console.WriteLine(@"
+                _______
+            ---'   ____)____
+                        ______)
+                    __________)
+                    (____)
+            ---.__(___)            
+            ");
         }
     }
 }
