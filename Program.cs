@@ -30,11 +30,19 @@ namespace RPS
 
             Compare(answer, compAnswer, playerScore, compScore);
             }
+            else if (playerScore == 3)
+            {
+                Console.WriteLine("You Win!");
+            }
+            else if (compScore == 3)
+            {
+                Console.WriteLine("You Lose :(");
+            }
         }
 
         static int Number() {
             Random r = new Random();
-            int genRand= r.Next(1,3);
+            int genRand= r.Next(1,4);
             return genRand;
         }
 
@@ -42,36 +50,54 @@ namespace RPS
         {
             if(playerAnswer == 1)
             {
+                if(compAnswer == 1)
+                {
+                    Console.WriteLine("Computer: Rock!");
+                }
                 if(compAnswer == 2)
                 {
+                    Console.WriteLine("Computer: Paper!");
                     compScore++;
                 }
                 if(compAnswer == 3)
                 {
+                    Console.WriteLine("Computer: Scissors!");
                     playerScore++;
                 }
             }
 
             if(playerAnswer == 2)
             {
+                if(compAnswer == 2)
+                {
+                    Console.WriteLine("Computer: Paper!");
+                }
                 if(compAnswer == 3)
                 {
+                    Console.WriteLine("Computer: Scissors!");
                     compScore++;
                 }
                 if(compAnswer == 1)
                 {
+                    Console.WriteLine("Computer: Rock!");
                     playerScore++;
                 }
             }
 
             if(playerAnswer == 3)
             {
+                if(compAnswer == 3)
+                {
+                    Console.WriteLine("Computer: Scissors!");
+                }
                 if(compAnswer == 1)
                 {
+                    Console.WriteLine("Computer: Rock!");
                     compScore++;
                 }
                 if(compAnswer == 2)
                 {
+                    Console.WriteLine("Computer: Paper!");
                     playerScore++;
                 }
             }
