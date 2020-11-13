@@ -1,0 +1,16 @@
+C:\Users\xshin\workspace\RPS\bin\Debug\net5.0\RPS.exe
+C:\Users\xshin\workspace\RPS\bin\Debug\net5.0\RPS.deps.json
+C:\Users\xshin\workspace\RPS\bin\Debug\net5.0\RPS.runtimeconfig.json
+C:\Users\xshin\workspace\RPS\bin\Debug\net5.0\RPS.runtimeconfig.dev.json
+C:\Users\xshin\workspace\RPS\bin\Debug\net5.0\RPS.dll
+C:\Users\xshin\workspace\RPS\bin\Debug\net5.0\ref\RPS.dll
+C:\Users\xshin\workspace\RPS\bin\Debug\net5.0\RPS.pdb
+C:\Users\xshin\workspace\RPS\obj\Debug\net5.0\RPS.csprojAssemblyReference.cache
+C:\Users\xshin\workspace\RPS\obj\Debug\net5.0\RPS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\xshin\workspace\RPS\obj\Debug\net5.0\RPS.AssemblyInfoInputs.cache
+C:\Users\xshin\workspace\RPS\obj\Debug\net5.0\RPS.AssemblyInfo.cs
+C:\Users\xshin\workspace\RPS\obj\Debug\net5.0\RPS.csproj.CoreCompileInputs.cache
+C:\Users\xshin\workspace\RPS\obj\Debug\net5.0\RPS.dll
+C:\Users\xshin\workspace\RPS\obj\Debug\net5.0\ref\RPS.dll
+C:\Users\xshin\workspace\RPS\obj\Debug\net5.0\RPS.pdb
+C:\Users\xshin\workspace\RPS\obj\Debug\net5.0\RPS.genruntimeconfig.cache
